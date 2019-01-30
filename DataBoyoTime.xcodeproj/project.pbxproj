@@ -55,6 +55,13 @@
 			path = Nodes;
 			sourceTree = "<group>";
 		};
+		0F3CBDDB220232C200EFB669 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
 		0FBD492021FF8BF3004C4DC6 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +118,7 @@
 		0FBD493921FF8DC9004C4DC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0F3CBDDB220232C200EFB669 /* Linear */,
 				0F3CBDD92202267300EFB669 /* Nodes */,
 			);
 			path = Model;
