@@ -15,6 +15,7 @@ using namespace std;
 class Controller
 {
 	public: void start();
+	public: void usingNodes();
 };
 
 #endif /* Controller_hpp */
