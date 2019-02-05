@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F30547D220A13C200DC5056 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0F30547B220A13C200DC5056 /* Timer.cpp */; };
 		0FBD493521FF8C99004C4DC6 /* DeadDataStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD493321FF8C99004C4DC6 /* DeadDataStructure.cpp */; };
 		0FBD493C21FF8E0D004C4DC6 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD493A21FF8E0D004C4DC6 /* Controller.cpp */; };
 		0FBD493E21FF8FA4004C4DC6 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD493D21FF8FA3004C4DC6 /* Runner.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F30547B220A13C200DC5056 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		0F30547C220A13C200DC5056 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		0F3CBDDA2202272300EFB669 /* LinerNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinerNode.hpp; sourceTree = "<group>"; };
 		0FBD492921FF8BF3004C4DC6 /* DataBoyoTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataBoyoTime; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBD493321FF8C99004C4DC6 /* DeadDataStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeadDataStructure.cpp; sourceTree = "<group>"; };
@@ -46,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F30547A220A138000DC5056 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0F30547B220A13C200DC5056 /* Timer.cpp */,
+				0F30547C220A13C200DC5056 /* Timer.hpp */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		0F3CBDD92202267300EFB669 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +106,7 @@
 		0FBD493621FF8DAF004C4DC6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F30547A220A138000DC5056 /* Tools */,
 				0FBD493A21FF8E0D004C4DC6 /* Controller.cpp */,
 				0FBD493B21FF8E0D004C4DC6 /* Controller.hpp */,
 				0FBD493D21FF8FA3004C4DC6 /* Runner.cpp */,
@@ -183,6 +196,7 @@
 				0FBD493E21FF8FA4004C4DC6 /* Runner.cpp in Sources */,
 				0FBD493521FF8C99004C4DC6 /* DeadDataStructure.cpp in Sources */,
 				0FBD493C21FF8E0D004C4DC6 /* Controller.cpp in Sources */,
+				0F30547D220A13C200DC5056 /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
