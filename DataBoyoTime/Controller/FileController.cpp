@@ -44,3 +44,23 @@ vector<CrimeData> FileController :: readCrimeDataToVector(string filename)
 	
 	return crimeVector;
 }
+
+vector<Music> FileController :: musicDataToVector(string filename)
+{
+	vector<Music> musicVector;
+	string currentCSVLine;
+	int rowCount = 0;
+	
+	ifstream dataFile(filename);
+	
+	//if file exists
+	if(dataFile.is_open())
+	{
+		//keep going till the end
+		while(!dataFile.eof())
+		{
+			//get each line
+			getLine
+		}
+	}
+}
