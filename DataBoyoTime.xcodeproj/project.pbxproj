@@ -89,6 +89,7 @@
 		0F3CBDD92202267300EFB669 /* Nodes */ = {
 			isa = PBXGroup;
 			children = (
+				0F0BEC39221F280B00007E17 /* DoubleNode.hpp */,
 				0FBD493F21FF913A004C4DC6 /* Node.hpp */,
 				0F3CBDDA2202272300EFB669 /* LinearNode.hpp */,
 			);
@@ -108,7 +109,6 @@
 		0FBD492021FF8BF3004C4DC6 = {
 			isa = PBXGroup;
 			children = (
-				0F0BEC39221F280B00007E17 /* DoubleNode.hpp */,
 				0FBD492B21FF8BF3004C4DC6 /* DataBoyoTime */,
 				0FBD492A21FF8BF3004C4DC6 /* Products */,
 			);
