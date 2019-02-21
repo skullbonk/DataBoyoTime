@@ -23,3 +23,8 @@ void Controller :: usingNodes()
 	wordHolder.setData("replaced text");
 	cout << wordHolder.getData() << endl;
 }
+
+void Controller :: testLinear()
+{
+	
+}
