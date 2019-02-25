@@ -102,6 +102,7 @@
 		0F3CBDDB220232C200EFB669 /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				0F7FFB9022247A13009B0C31 /* Stack.hpp */,
 				0F70F55A220CC9FC00476A87 /* List.cpp */,
 				0F70F55B220CC9FC00476A87 /* List.hpp */,
 				0F8E33512211FA32006878C8 /* LinkedList.hpp */,
@@ -114,7 +115,6 @@
 		0FBD492021FF8BF3004C4DC6 = {
 			isa = PBXGroup;
 			children = (
-				0F7FFB9022247A13009B0C31 /* Stack.hpp */,
 				0FBD492B21FF8BF3004C4DC6 /* DataBoyoTime */,
 				0FBD492A21FF8BF3004C4DC6 /* Products */,
 			);
