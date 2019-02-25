@@ -48,6 +48,7 @@
 		0F70F55A220CC9FC00476A87 /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
 		0F70F55B220CC9FC00476A87 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		0F7FFB8F2224769C009B0C31 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		0F7FFB9022247A13009B0C31 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		0F8E33512211FA32006878C8 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		0F8E3353221200C5006878C8 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		0FBD492921FF8BF3004C4DC6 /* DataBoyoTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataBoyoTime; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +114,7 @@
 		0FBD492021FF8BF3004C4DC6 = {
 			isa = PBXGroup;
 			children = (
+				0F7FFB9022247A13009B0C31 /* Stack.hpp */,
 				0FBD492B21FF8BF3004C4DC6 /* DataBoyoTime */,
 				0FBD492A21FF8BF3004C4DC6 /* Products */,
 			);
