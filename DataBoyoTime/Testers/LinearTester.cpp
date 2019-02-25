@@ -8,6 +8,12 @@
 
 #include "LinearTester.hpp"
 
+LinearTester :: LinearTester()
+{
+	
+}
+
+
 void LinearTester :: testVsSTL()
 {
 	Timer crimeTimerSTL, crimeTimerOOP, musicSTL, musicOOP;
@@ -45,4 +51,29 @@ void LinearTester :: testVsSTL()
 	crimeTimerSTL.resetTimer();
 	musicOOP.resetTimer();
 	musicSTL.resetTimer();
+	
+	int randomIndex = rand() % moreCrimes.getSize();
+	
+	crimeTimerSTL.startTimer();
+	crimes[randomIndex];
+	crimeTimerSTL.stopTimer();
 }
+
+void LinearTester :: testVsStack()
+{
+	
+}
+
+void LinearTester :: testVsQueue()
+{
+	
+}
+
+void LinearTester :: testVsDouble()
+{
+	
+}
+
+
+
+

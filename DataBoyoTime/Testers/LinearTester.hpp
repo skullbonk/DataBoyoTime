@@ -11,10 +11,26 @@
 
 #include "../Controller/Tools/Timer.hpp"
 #include "../Controller/FileController.hpp"
-
+#include "../Model/Linear/Stack.hpp"
+#include "../Model/Linear/Queue.hpp"
 #include "../Model/Linear/LinkedList.hpp"
 
 #include <iostream>
 using namespace std;
+
+//template <class Type>
+class LinearTester
+{
+public:
+	// constructor
+	LinearTester();
+	// destructor
+	virtual ~LinearTester();
+	
+	void testVsSTL();
+	void testVsStack();
+	void testVsQueue();
+	void testVsDouble();
+}
 
 #endif /* LinearTester_hpp */
