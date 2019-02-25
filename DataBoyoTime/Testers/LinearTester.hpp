@@ -12,11 +12,9 @@
 #include "../Controller/Tools/Timer.hpp"
 #include "../Controller/FileController.hpp"
 
-#include "../Model/Linear/LinkedList.hpp"  
-#
-#
-#
+#include "../Model/Linear/LinkedList.hpp"
 
 #include <iostream>
+using namespace std;
 
 #endif /* LinearTester_hpp */
