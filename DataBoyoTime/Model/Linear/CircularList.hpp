@@ -88,13 +88,15 @@ void CircularList<Type> :: add(Type item)
 	{
 		addedNode = new DoubleNode<Type>(item);
 		this->front = addedNode;
+		this->end = addedNode;
+		this->end->setNext(addedNode);
 	}
 	else
 	{
 		addedNode = new DoubleNode<Type>(item, this->end, this-front);
+		this->end->setNext(addedNode);
 	}
 	
-	this->end->setNext(addedNode);
 	this->front->setPrevious(addedNode);
 	this->end = addedNode;
 	this->size++;
