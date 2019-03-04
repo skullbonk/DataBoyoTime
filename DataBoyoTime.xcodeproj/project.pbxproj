@@ -58,6 +58,7 @@
 		0FBD493B21FF8E0D004C4DC6 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		0FBD493D21FF8FA3004C4DC6 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		0FBD493F21FF913A004C4DC6 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		0FC1B20E222DC4D6008D1570 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +159,7 @@
 		0FBD493721FF8DB6004C4DC6 /* Diagrams */ = {
 			isa = PBXGroup;
 			children = (
+				0FC1B20E222DC4D6008D1570 /* Graph.hpp */,
 			);
 			path = Diagrams;
 			sourceTree = "<group>";
