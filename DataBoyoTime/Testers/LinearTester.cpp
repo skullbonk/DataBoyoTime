@@ -7,6 +7,7 @@
 //
 
 #include "LinearTester.hpp"
+#include "../Controller/FileController.hpp"
 
 LinearTester :: LinearTester()
 {
@@ -30,7 +31,7 @@ void LinearTester :: testVsSTL()
 	crimeTimerSTL.displayInformation();
 	cout << "this is the OOP Node Read time: " << endl;
 	crimeTimerOOP.displayInformation();
-	cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
+	cout << "A difference of: " << crimeTimerOOP.getTimeInMircoseconds() - crimeTimerSTL.getTimeInMicroseconds() << " microseconds" << endl;
 	
 	musicSTL.startTimer();
 	vector<Music> tunez = FileController :: musicDataToList();
@@ -73,7 +74,4 @@ void LinearTester :: testVsDouble()
 {
 	
 }
-
-
-
 

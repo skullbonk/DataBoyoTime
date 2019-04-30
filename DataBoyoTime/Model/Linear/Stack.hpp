@@ -28,7 +28,7 @@ public:
 	void addAtIndex(int index, Type data);
 	Type getFromIndex(int index);
 	Type remove(int index);
-}
+};
 
 template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
@@ -45,8 +45,9 @@ Stack<Type> :: ~Stack()
 	}
 }
 
+/*
 template <class Type>
-void Stack<Type> * add = new LinearNode<Type>(data);
+void Stack<Type> * add = new LinearNode<Type>(data)
 {
 	if(this->size == 0)
 	{
@@ -60,7 +61,7 @@ void Stack<Type> * add = new LinearNode<Type>(data);
 	this->front = add;
 	this->size++;
 }
-
+*/
 template <class Type>
 void Stack<Type> :: add(Type data)
 {

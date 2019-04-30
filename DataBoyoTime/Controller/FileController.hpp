@@ -24,7 +24,7 @@ public:
 	static vector<CrimeData> readCrimeDataToVector(string filename);
 	static vector<Music> musicDataToVector(string filename);
 	// OOP Array
-	static Array<Music> musicDataToArray(string filename);
+//	static array<Music> musicDataToArray(string filename);
 	static vector<Music> musicDataToArray(string filename);
 	static vector<CrimeData> readCrimeDataToVector();
 };

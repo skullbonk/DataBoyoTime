@@ -19,7 +19,7 @@ private:
 	void setup();
 	void compareTraversals();
 	void findCheapestTraversal();
-	
+
 public:
 	void testGraphs();
 };
@@ -28,7 +28,7 @@ template <class Type>
 Graph<Type> :: Graph()
 {
 	this->vertexCound = 0;
-	
+
 	for(int index = 0; index < MAXIMUM; index ++)
 	{
 		int * row = weightCostMatrix[index];

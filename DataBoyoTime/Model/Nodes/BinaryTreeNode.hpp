@@ -29,7 +29,7 @@ public:
 	
 	BinaryTreeNode<Type> * getRootNode();
 	BinaryTreeNode<Type> * getLeftChild();
-	BinaryTreeNode<Type> * getRightChild;
+	BinaryTreeNode<Type> * getRightChild();
 };
 
 template <class Type>

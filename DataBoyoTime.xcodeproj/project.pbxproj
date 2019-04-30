@@ -72,7 +72,7 @@
 		0FBD493F21FF913A004C4DC6 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		0FBD53B42240119100820C5A /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		0FBD53B52240130700820C5A /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
-		0FC1B20E222DC4D6008D1570 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		0FCC7A902278C3C000307E8D /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 			children = (
 				0FA64B7A226E3CE900177CC4 /* Tree.hpp */,
 				0FA64B79226E3CE900177CC4 /* BinarySearchTree.hpp */,
-				0FC1B20E222DC4D6008D1570 /* Graph.hpp */,
 				0FA64B76226E3CC500177CC4 /* Graph.hpp */,
+				0FCC7A902278C3C000307E8D /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -252,6 +252,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0FBD492021FF8BF3004C4DC6;
 			productRefGroup = 0FBD492A21FF8BF3004C4DC6 /* Products */;

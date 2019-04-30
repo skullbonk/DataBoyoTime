@@ -60,15 +60,15 @@ void GraphTester :: setup()
 	puzzle.addVertex("12 ");
 	puzzle.addVertex("10 ");
 	puzzle.addVertex("Hopper ");
-	
-	
-	
+
+
+
 	puzzle.addEdgeUndirected(18,22);
 	puzzle.addEdgeUndirected(2,7);
 	puzzle.addEdgeUndirected(7,47);
 	puzzle.addEdgeUndirected(46,44);
-	
-	
+
+
 	puzzle.addEdge(17,28);
 	puzzle.addEdge(28 ,43);
 	puzzle.addEdge(12,20);
@@ -98,7 +98,7 @@ void GraphTester :: setup()
 	puzzle.addEdge(10, 30);
 	puzzle.addEdge(1, 2);
 	puzzle.addEdge(0, 10);
-	
+
 	puzzle.addEdgeCost(9,8, 20);
 	puzzle.addEdgeCost(33,19, 13);
 	puzzle.addEdgeCost(8,27, 13);
@@ -139,10 +139,10 @@ void GraphTester :: testGraphs()
 
 void GraphTester :: compareTraversals()
 {
-	
+
 }
 
 void GraphTester :: findCheapestTraversal()
 {
-	
+
 }

@@ -31,6 +31,6 @@ public:
 	void testVsStack();
 	void testVsQueue();
 	void testVsDouble();
-}
+};
 
 #endif /* LinearTester_hpp */
