@@ -141,7 +141,7 @@ void GraphTester :: testGraphs()
 
 void GraphTester :: compareTraversals()
 {
-	
+//	puzzle.depthFirstTraversal();
 }
 
 void GraphTester :: findCheapestTraversal()

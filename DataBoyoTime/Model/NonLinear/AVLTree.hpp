@@ -138,14 +138,14 @@ BinaryTreeNode<Type> * AVLTree<Type> :: balanceSubTree(BinaryTreeNode<Type> * pa
 }
 
 template<class Type>
-BinaryTreeNode<Type> * AVLTree<Type> :: leftRotation (BinaryTreeNode<Type> * parent)
+BinaryTreeNode<Type> * AVLTree<Type> :: leftHeavyRotation (BinaryTreeNode<Type> * parent)
 {
 	BinaryTreeNode<Type> * changedNode;
 	changedNode = parent->getLeftChild();
 	
 	parent->setleftChild(changedNode->getRightChild());
 	
-	changedNode->setRightCHild(parent);
+	changedNode->setRightChild(parent);
 	parent->setRootNode(changedNode);
 	
 	return changedNode;
