@@ -9,6 +9,7 @@
 #ifndef Graph_hpp
 #define Graph_hpp
 
+#include <iostream>
 #include <set>
 #include <queue>
 #include <assert.h>
@@ -48,7 +49,7 @@ public:
 	// check connections
 	bool hasUndirectedConnection(int source, int target) const;
 	std::set<int> neighbors(int vertex) const;
-	bool areConnected(int source, int target);
+	bool areConnected(int source, int target) const;
 
 	// traversals
 	void depthFirstTraversal(Graph<Type> & graph, int vertex);
@@ -63,12 +64,17 @@ template <class Type>
 Graph<Type> :: Graph()
 {
 	this->vertexCount = 0;
+	
+	for(int index = 0; index < MAXIMUM; index ++)
+	{
+		int * row = weightCostMatrix[index];
+		std::fill_n(row, MAXIMUM, 0);
+	}
 }
 /*
 can't remove from an array in C++, so you implement adding to a graph.
 in java you can set any object to null, but not in C++.
 */
-
 
 template <class Type>
 int Graph<Type> :: size() const
@@ -167,6 +173,7 @@ template <class Type>
 bool Graph<Type> :: areConnected(int source, int target) const
 {
 	assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
+	
 	bool isAnEdge = false;
 	isAnEdge = adjacencyMatrix[source][target];
 
@@ -217,24 +224,24 @@ void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, 
 }
 
 template <class Type>
-void Graph(Type) :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex)
+void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex)
 {
 	assert(vertex < currentGraph.size());
 	bool visited[MAXIMUM];
-	std::set<int connections>;
+	std::set<int> connections;
 	std::set<int>::iterator setIterator;
 	std::queue<int> vertexQueue;
 
-	std::fill_n(cisited, currentGraph.size().false);
+	std::fill_n(visited, currentGraph.size().False);
 	visited[vertex] = true;
-	cout<< currentGraph[vertex] << endl;
+	cout << currentGraph[vertex] << endl;
 	vertexQueue.push(vertex);
 	while(!vertexQueue.empty())
 	{
 		connections = currentGraph.neightbors(vertexQueue.front());
 		vertexQueue.pop();
 
-		for(setIterator = connections.begin(); setIterator != conenctions.end(); setIterator ++)
+		for(setIterator = connections.begin(); setIterator != connections.end(); setIterator ++)
 		{
 			if(!visited[*setIterator])
 			{
@@ -244,7 +251,7 @@ void Graph(Type) :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
 			}
 		}
 	}
-}
+};
 
 template <class Type>
 int Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int start)
@@ -266,12 +273,12 @@ int Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int start)
 		connections = currentGraph.neighbors(currentIndex);
 		vertexQueue.pop();
 
-		for(setIterator = connections.begin(); setIterator != conenctions.end(); setIterator ++)
+		for(setIterator = connections.begin(); setIterator != connections.end(); setIterator ++)
 		{
 			if(!visited[*setIterator])
 			{
 				cost += weightCostMatrix[currentIndex][*setIterator];
-				Visited[*setIterator] = true;
+				visited[*setIterator] = true;
 				vertexQueue.push(*setIterator);
 			}
 		}

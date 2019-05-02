@@ -24,16 +24,4 @@ public:
 	void testGraphs();
 };
 
-template <class Type>
-Graph<Type> :: Graph()
-{
-	this->vertexCound = 0;
-
-	for(int index = 0; index < MAXIMUM; index ++)
-	{
-		int * row = weightCostMatrix[index];
-		std::fill_n(row, MAXIMUM, 0);
-	}
-}
-
 #endif /* GraphTester_hpp */
